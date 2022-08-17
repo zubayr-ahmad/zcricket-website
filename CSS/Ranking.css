@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #246c4e;
+    /* background:url('../Images/table5.jpg') center/cover;
+        background-repeat: no-repeat; */
+}
+
+/* Navigation Bar */
+.navbar {
+    background: url('../Images/code4.jpg') center/cover;
+    text-align: center;
+    display: block;
+    left: 0px;
+    /* border: 2px solid black; */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    padding: 30px;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(33, 46, 51);
+}
+
+.navbar ul {
+    text-align: left;
+    margin-left: 48px;
+}
+
+/* Logo image at left side */
+.navbar img {
+    position: absolute;
+    display: block;
+    left: 1%;
+    top: 1%;
+    height: 70px;
+}
+
+/* Table Styling */
+/* General styling */
+.table1 {
+    margin-top: 3%;
+    margin-left: 16%;
+    border-collapse: collapse;
+    /*border-collapse: make borders of cell collapse or seperate*/
+    width: 65%;
+    border-left: 2px solid rgb(201, 204, 201);
+    border-right: 2px solid rgb(201, 204, 201);
+}
+
+tr {
+    background-color: white;
+
+}
+
+tr:hover {
+    background-color: rgb(235, 240, 236);
+    color: #218862;
+
+}
+
+
+td {
+    font-size: 20px;
+    padding: 15px;
+    border-bottom: 2px solid rgb(201, 204, 201);
+}
+
+/* Specific Styling */
+th {
+    color: white;
+    text-align: left;
+    background-color: #1FB07C;
+    font-size: 22px;
+    border: 2px solid #1FB07C;
+    padding: 15px;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 85px;
+    /* color: rgb(4, 110, 18); */
+    color: white;
+    margin-left: 37%;
+}
+
+.icc {
+    float: right;
+    margin: 10px;
+    max-height: 140px;
+}
+
+.para {
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 21px;
+    padding: 40px;
+}
+
+.para p {
+    margin-bottom: 0px;
+}
+
+.para a {
+    color: whitesmoke;
+}
